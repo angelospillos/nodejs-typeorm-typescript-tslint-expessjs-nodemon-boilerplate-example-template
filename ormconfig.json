@@ -1,0 +1,24 @@
+{
+  "type": "mysql",
+  "host": "sql2.freemysqlhosting.net",
+  "port": 3306,
+  "username": "sql2335744",
+  "password": "dV9*eX7!",
+  "database": "sql2335744",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "build/entity/**/*.entity.js"
+  ],
+  "migrations": [
+    "build/migration/**/*.migration.js"
+  ],
+  "subscribers": [
+    "build/subscriber/**/*.subscriber.js"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
